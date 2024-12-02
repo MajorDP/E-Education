@@ -1,0 +1,166 @@
+.container {
+  width: 80%;
+  height: 85.5vh;
+  background: linear-gradient(to right, rgb(6, 39, 6), rgb(1, 51, 1));
+  padding: 20px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.container::-webkit-scrollbar-track {
+  background-color: #102010;
+  border-radius: 6px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.container::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 255, 255, 1);
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #d3d379;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.description {
+  border: 1px solid #d3d379;
+  border-radius: 10px;
+  padding: 1.2rem;
+  width: 90%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+#live {
+  background-color: #111111;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.output-header {
+  background-color: #6b7177;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#editor {
+  background-color: #3a3a3a;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 20px;
+}
+
+.cm-content {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: #d3d379;
+}
+
+.cm-content div {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #042f63;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #0654a5;
+}
+
+.output {
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: "Courier New", Courier, monospace;
+  color: #d3d379;
+}
+
+.output span {
+  display: block;
+  padding: 5px 0;
+}
+
+.parameters {
+  margin-top: 30px;
+}
+
+.parameters p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #d3d379;
+}
+
+.parameters ul {
+  padding-left: 2rem;
+  list-style-type: disc;
+}
+
+.parameters ul li {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.parameters ul li span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d3d379;
+}
+
+.parameters ul li p {
+  font-size: 1rem;
+  text-align: start;
+  margin: 5px 0;
+}
+
+.parameters ul li ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.parameters ul li ul li {
+  margin-bottom: 1rem;
+  color: #d3d379;
+}

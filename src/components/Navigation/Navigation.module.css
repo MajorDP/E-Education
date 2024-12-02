@@ -1,0 +1,20 @@
+.container {
+  background-color: #03346e;
+  font-size: x-large;
+  height: 6vh;
+}
+
+.container ul {
+  list-style-type: none;
+
+  width: 50%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.container ul li a {
+  text-decoration: none;
+  color: #e2e2b6;
+}

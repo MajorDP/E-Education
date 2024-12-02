@@ -1,0 +1,83 @@
+.container {
+  min-width: 25%;
+  max-width: 30%;
+  background-color: #063006;
+  color: white;
+  height: 85.5vh;
+  border-right: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #d3d379;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.guideList {
+  border-top: 1px solid white;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.guideList ul {
+  list-style-type: none;
+  font-size: 1rem;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.guideList ul span {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #d3d379;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.guideList ul span:hover {
+  background-color: #204020;
+  border-radius: 4px;
+}
+
+.guideList ul li {
+  padding-left: 20px;
+  padding: 8px 10px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.guideList ul li:hover {
+  background-color: #336633;
+  border-radius: 4px;
+}
+
+.selectedOption {
+  color: #d3d379;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #102010;
+}
